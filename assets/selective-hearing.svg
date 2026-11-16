@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="signal-top" x1="10" y1="8" x2="54" y2="31" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F8FB"/>
+      <stop offset="1" stop-color="#A9B0BC"/>
+    </linearGradient>
+    <linearGradient id="signal-bottom" x1="10" y1="34" x2="55" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7A4FF"/>
+      <stop offset="0.5" stop-color="#9B82E2"/>
+      <stop offset="1" stop-color="#7474D1"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#signal-top)" stroke-width="4.5" stroke-linecap="round">
+    <path d="M10 25.5V29"/>
+    <path d="M16.3 19.5V29.2"/>
+    <path d="M22.6 13.8V28.8"/>
+    <path d="M28.9 10V27.8"/>
+    <path d="M35.1 9.2V27.2"/>
+    <path d="M41.4 11.2V27.8"/>
+    <path d="M47.7 15.5V28.8"/>
+    <path d="M54 21.4V29.6"/>
+  </g>
+  <g stroke="url(#signal-bottom)" stroke-width="4.5" stroke-linecap="round">
+    <path d="M10 34.5V42"/>
+    <path d="M16.3 34.8V47.5"/>
+    <path d="M22.6 35.6V52"/>
+    <path d="M28.9 36.8V54.8"/>
+    <path d="M35.1 36.2V54"/>
+    <path d="M41.4 35.2V51"/>
+    <path d="M47.7 34.2V46.5"/>
+    <path d="M54 33.4V40.5"/>
+  </g>
+</svg>
