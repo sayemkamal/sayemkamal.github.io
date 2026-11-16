@@ -13,3 +13,12 @@
 .coursework li{display:flex;flex-direction:column;gap:1px}.course-code{font-size:10px;letter-spacing:.35px;color:#7a847c;font-variant-numeric:tabular-nums}.coursework ul{row-gap:13px}
 
 main{padding-bottom:48px}
+
+.project{grid-template-columns:370px minmax(0,1fr);align-items:center}
+.project-image{position:relative;height:auto;aspect-ratio:16/10}
+.project-image>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.project--screenshot .project-image{background:#111419;cursor:zoom-in}
+.project--screenshot .project-image--book{background:#fff}
+@media(max-width:760px){
+  .project{grid-template-columns:minmax(0,1fr);gap:16px}
+}
